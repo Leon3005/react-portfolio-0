@@ -5,6 +5,10 @@
 
 body {
   margin: 0;
+  background-color: black;
+  color: white;
+  font-family: GTWalsheimPro-Regular;
+  font-size: 1rem;
 }
 
 code {
