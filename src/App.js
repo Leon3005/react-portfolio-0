@@ -8,8 +8,8 @@ function App() {
         <Header />
       </div>
       <div>
-        <div className="projects d-flex justify-content-center">
-          <h1 className="mt-5">projects</h1>
+        <div className="projects d-flex justify-content-center" id="projects">
+          <div className="vl"></div>
         </div>
       </div>
     </div>

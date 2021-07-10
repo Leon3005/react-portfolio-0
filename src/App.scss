@@ -15,11 +15,11 @@
   }
   &:nth-child(2) {
     animation-delay: -2s;
-    animation-duration: 5s;
+    animation-duration: 9s;
   }
   &:nth-child(3) {
     animation-delay: -4s;
-    animation-duration: 3s;
+    animation-duration: 6s;
   }
 }
 
@@ -52,13 +52,19 @@
   height: 100vh;
 }
 
-.projects h1 {
-  font-size: 4rem;
-  font-weight: 400;
+.vl {
+  margin-top: 100px;
+  border-left: 1px solid #bdbdbd;
+  height: 1000px;
 }
 
 @media screen and (max-width: 600px) {
   .waves {
-    transform: scale(2);
+    transform: scale(2.5);
+  }
+
+  .personalDetails {
+    top: 30%;
+    left: 12%;
   }
 }
