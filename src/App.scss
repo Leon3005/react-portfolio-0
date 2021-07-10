@@ -58,6 +58,19 @@
   height: 1000px;
 }
 
+.project {
+  position: absolute;
+  top: 120%;
+  right: 5%;
+}
+
+.projectImage {
+  height: 400px;
+  width: 800px;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
+    rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
 @media screen and (max-width: 600px) {
   .waves {
     transform: scale(2.5);
@@ -66,5 +79,15 @@
   .personalDetails {
     top: 30%;
     left: 12%;
+  }
+
+  .project {
+    left: 3%;
+    top: 140%;
+  }
+
+  .projectImage {
+    height: 175px;
+    width: 350px;
   }
 }
