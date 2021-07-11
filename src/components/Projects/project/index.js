@@ -44,7 +44,11 @@ import { faServer } from "@fortawesome/free-solid-svg-icons";
 const Project = (props) => {
   return (
     <div className="project mt-5">
-      <img src={props.image} className="projectImage" alt="The tech blog"></img>
+      <img
+        src={props.image}
+        className="projectImage"
+        alt={props.imageAlt}
+      ></img>
       <h5 className="text-center mt-3">{props.title}</h5>
       <p className="text-center text-secondary">{props.description}</p>
       <p className="text-center text-danger">{props.tech}</p>
