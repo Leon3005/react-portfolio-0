@@ -47,28 +47,30 @@
   opacity: 70%;
 }
 
+#projectHeading {
+  color: black;
+  font-weight: 800 !important;
+  margin-top: 5rem;
+}
+
 .projects {
   color: black;
   height: 100vh;
 }
 
-.vl {
-  margin-top: 100px;
-  border-left: 1px solid #bdbdbd;
-  height: 1000px;
-}
-
 .project {
-  position: absolute;
-  top: 120%;
-  right: 5%;
+  width: 600px;
 }
 
 .projectImage {
-  height: 400px;
-  width: 800px;
+  height: 300px;
+  width: 600px;
   box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
     rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+.projectDesc {
+  width: 800px;
 }
 
 @media screen and (max-width: 600px) {
@@ -82,8 +84,7 @@
   }
 
   .project {
-    left: 3%;
-    top: 140%;
+    justify-content: center;
   }
 
   .projectImage {
