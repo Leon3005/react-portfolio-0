@@ -32,9 +32,21 @@ function App() {
               Tech Used: Node.js, Express, jQuery, MySQL, Handlebars, bCrypt,
               Bootstrap
             </p>
-            <div className="text-center d-flex justify-content-evenly ">
-              <FontAwesomeIcon icon={faGithub} size="2x" />
-              <FontAwesomeIcon icon={faServer} size="2x" />
+            <div className="text-center d-flex justify-content-evenly">
+              <a
+                href="https://github.com/Leon3005/tech-blog"
+                target="_blank"
+                className="projectLink"
+              >
+                <FontAwesomeIcon icon={faGithub} size="2x" />
+              </a>
+              <a
+                href="https://mighty-wildwood-56891.herokuapp.com/"
+                target="_blank"
+                className="projectLink"
+              >
+                <FontAwesomeIcon icon={faServer} size="2x" />
+              </a>
             </div>
           </div>
         </div>

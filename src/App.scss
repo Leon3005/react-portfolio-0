@@ -73,6 +73,10 @@
   width: 800px;
 }
 
+.projectLink {
+  text-decoration: none;
+}
+
 @media screen and (max-width: 600px) {
   .waves {
     transform: scale(2.5);
