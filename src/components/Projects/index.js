@@ -1,4 +1,3 @@
-import homepagetech from "../../assets/images/homepagetech.png";
 import Project from "./project";
 import projects from "../../assets/projectData";
 
