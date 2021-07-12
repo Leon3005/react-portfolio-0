@@ -6,6 +6,8 @@
 .waves {
   position: absolute;
   bottom: 0;
+  overflow: hidden;
+  // margin-right: 0 !important;
 }
 
 .wavies > use {
@@ -56,7 +58,6 @@
 
 .projects {
   color: black;
-  height: 100vh;
 }
 
 .project {
@@ -78,9 +79,22 @@
   text-decoration: none;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1300px) {
+  .projects {
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .project {
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 620px) {
   .waves {
-    transform: scale(2.5);
+    transform: scale(1);
+    height: 40%;
+    bottom: 0%;
   }
 
   .personalDetails {
@@ -88,12 +102,12 @@
     left: 12%;
   }
 
-  .projects {
-    flex-direction: column;
+  #projectHeading {
+    margin-top: 9rem;
   }
 
   .project {
-    justify-content: center;
+    width: 350px;
   }
 
   .projectImage {

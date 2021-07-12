@@ -19,11 +19,9 @@ const Projects = () => {
   };
 
   return (
-    <div>
-      <div>
-        <h1 className="text-center" id="projectHeading">
-          projects
-        </h1>
+    <div className="container-fluid">
+      <div id="projectHeading">
+        <h1 className="text-center">projects</h1>
       </div>
       <div className="projects d-flex justify-content-evenly">
         {renderProjects()}
