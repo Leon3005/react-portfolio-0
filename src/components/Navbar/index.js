@@ -1,19 +1,19 @@
 const Navbar = () => {
   return (
-    <nav class="navbar navbar-expand-lg navbar-dark ">
-      <div class="container-fluid ">
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div class="navbar-nav ms-auto">
-            <a class="nav-link active" aria-current="page" href="#">
+    <nav className="navbar navbar-expand-lg navbar-dark ">
+      <div className="container-fluid ">
+        <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div className="navbar-nav ms-auto">
+            <a className="nav-link active" aria-current="page" href="#">
               home
             </a>
-            <a class="nav-link " href="#projects">
+            <a className="nav-link " href="#projects">
               projects
             </a>
-            <a class="nav-link" href="#">
+            <a className="nav-link" href="#">
               about me
             </a>
-            <a class="nav-link" href="#">
+            <a className="nav-link" href="#">
               contact me
             </a>
           </div>

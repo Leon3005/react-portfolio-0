@@ -23,7 +23,7 @@ const Projects = () => {
       <div id="projectHeading">
         <h1 className="text-center">projects</h1>
       </div>
-      <div className="projects d-flex justify-content-evenly">
+      <div className="projects d-flex justify-content-evenly flex-wrap">
         {renderProjects()}
       </div>
     </div>

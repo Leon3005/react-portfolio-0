@@ -10,10 +10,20 @@ const projects = [
     deployedLink: "https://mighty-wildwood-56891.herokuapp.com/",
   },
   {
+    title: "tri-via-hub",
+    description:
+      "tri-via-hub is a full-stack MVC application that stores user login information, quizzes, and quiz scores to a database. The user can log in/sign up to play or create a quiz, which can also be done by generating questions based on category from a third-party API.",
+    tech: "Tech Used: Node.js, Express, jQuery, MySQL, Handlebars, bCrypt, Open Trivia DB API, Bootstrap",
+    image: "images/tri-via-hub.png",
+    imageAlt: "tri-via-hub",
+    githubLink: "https://github.com/Leon3005/tri-via-hub",
+    deployedLink: "https://tri-via-hub.herokuapp.com/",
+  },
+  {
     title: "Samplify",
     description:
       "Samplify is a front-end only application that interacts with 2 third-party API's, Youtube and Genius. It allows the user to search for a song via the Genius API and see the samples that were used in that song. It also generated embedded YouTube players for each sample. Local storage is used to add songs to favourites.",
-    tech: "Tech Used: jQuery, Third-Party API's, Local Storage, Bulma, Swiper.JS",
+    tech: "Tech Used: jQuery, Genius & Youtube API's, Local Storage, Bulma, Swiper.JS",
     image: "images/samplify.png",
     imageAlt: "Samplify",
     githubLink: "https://github.com/Leon3005/samplify-uk",

@@ -4,7 +4,7 @@ import { faServer } from "@fortawesome/free-solid-svg-icons";
 
 const Project = (props) => {
   return (
-    <div className="project mt-5">
+    <div className="project mt-5 mx-5">
       <img
         src={props.image}
         className="projectImage"
