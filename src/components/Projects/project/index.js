@@ -6,18 +6,22 @@ const Project = (props) => {
   return (
     <div className="project mt-5 mx-5">
       <img
-        src={props.image}
+        src={props.data.image}
         className="projectImage"
-        alt={props.imageAlt}
+        alt={props.data.imageAlt}
       ></img>
-      <h5 className="text-center mt-3">{props.title}</h5>
-      <p className="text-center text-secondary">{props.description}</p>
-      <p className="text-center text-danger">{props.tech}</p>
+      <h5 className="text-center mt-3">{props.data.title}</h5>
+      <p className="text-center text-secondary">{props.data.description}</p>
+      <p className="text-center text-danger">{props.data.tech}</p>
       <div className="text-center d-flex justify-content-evenly">
-        <a href={props.githubLink} target="_blank" className="projectLink">
+        <a href={props.data.githubLink} target="_blank" className="projectLink">
           <FontAwesomeIcon icon={faGithub} size="2x" />
         </a>
-        <a href={props.deployedLink} target="_blank" className="projectLink">
+        <a
+          href={props.data.deployedLink}
+          target="_blank"
+          className="projectLink"
+        >
           <FontAwesomeIcon icon={faServer} size="2x" />
         </a>
       </div>

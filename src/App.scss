@@ -1,3 +1,9 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 .header {
   height: 100vh;
   background-color: black;
@@ -7,7 +13,7 @@
   position: absolute;
   bottom: 0;
   overflow: hidden;
-  // margin-right: 0 !important;
+  transform: scale(1.5);
 }
 
 .wavies > use {
@@ -92,8 +98,7 @@
 
 @media screen and (max-width: 620px) {
   .waves {
-    transform: scale(1);
-    height: 40%;
+    transform: scale(3);
     bottom: 0%;
   }
 

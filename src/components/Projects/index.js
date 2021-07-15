@@ -4,17 +4,7 @@ import projects from "../../assets/projectData";
 const Projects = () => {
   const renderProjects = () => {
     return projects.map((project) => {
-      return (
-        <Project
-          title={project.title}
-          description={project.description}
-          tech={project.tech}
-          image={project.image}
-          imageAlt={project.imageAlt}
-          githubLink={project.githubLink}
-          deployedLink={project.deployedLink}
-        />
-      );
+      return <Project data={project} />;
     });
   };
 

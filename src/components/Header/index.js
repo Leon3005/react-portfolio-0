@@ -12,7 +12,7 @@ const Header = () => {
               <h2>full-stack web developer</h2>
             </div>
           </div>
-          <div className="waves row w-100">
+          <div className="waves w-100">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               xmlnsXlink="http://www.w3.org/1999/xlink"
