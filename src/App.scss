@@ -4,6 +4,11 @@
   box-sizing: border-box;
 }
 
+br {
+  display: block;
+  margin: 15px;
+}
+
 .header {
   height: 100vh;
   background-color: black;
@@ -58,9 +63,11 @@
 
 #projectHeading {
   color: black;
-  font-weight: 800 !important;
   margin-top: 5rem;
   margin-bottom: 2rem;
+  h1 {
+    font-size: 3rem;
+  }
 }
 
 .projects {
@@ -86,6 +93,28 @@
   text-decoration: none;
 }
 
+#aboutMe {
+  color: black;
+  height: 100vh;
+  h1 {
+    font-size: 3rem;
+  }
+}
+
+.aboutMeContainer {
+  height: 90%;
+
+  img {
+    border-radius: 50%;
+    transform: scale(1.2);
+  }
+}
+
+.aboutMeText {
+  font-size: 1.5rem;
+  color: black;
+}
+
 @media screen and (max-width: 1300px) {
   .projects {
     align-items: center;
@@ -94,6 +123,20 @@
 
   .project {
     justify-content: center;
+  }
+
+  .aboutMeContainer {
+    flex-direction: column;
+
+    .aboutMeText {
+      font-size: 1.1rem;
+      width: 75% !important;
+      margin-right: 0 !important;
+    }
+
+    img {
+      margin-left: 0 !important;
+    }
   }
 }
 

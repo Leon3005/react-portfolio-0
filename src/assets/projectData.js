@@ -32,7 +32,7 @@ const projects = [
   {
     title: "React Weather Dashboard",
     description:
-      "The Weather Dashboard allows users to retrieve current weather data in a searched city. It uses React for rendering, Bootstrap for styling, and the Open Weather Map API for data.",
+      "The Weather Dashboard allows users to retrieve current weather data and the forecast for the next five days in a searched city. It uses React for rendering, Bootstrap for styling, and the Open Weather Map API for data.",
     tech: "Tech Used: React, Bootstrap, Open Weather Map API, Axios",
     image: "images/weather.png",
     imageAlt: "Weather Dashboard",
