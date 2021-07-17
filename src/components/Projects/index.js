@@ -9,7 +9,7 @@ const Projects = () => {
   };
 
   return (
-    <div className="container-fluid">
+    <div className="container-fluid" id="projects">
       <div id="projectHeading">
         <h1 className="text-center">projects</h1>
       </div>

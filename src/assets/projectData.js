@@ -29,6 +29,16 @@ const projects = [
     githubLink: "https://github.com/Leon3005/samplify-uk",
     deployedLink: "https://leon3005.github.io/samplify-uk/",
   },
+  {
+    title: "React Weather Dashboard",
+    description:
+      "The Weather Dashboard allows users to retrieve current weather data in a searched city. It uses React for rendering, Bootstrap for styling, and the Open Weather Map API for data.",
+    tech: "Tech Used: React, Bootstrap, Open Weather Map API, Axios",
+    image: "images/weather.png",
+    imageAlt: "Weather Dashboard",
+    githubLink: "https://github.com/Leon3005/react-weather-dashboard",
+    deployedLink: "https://lw-weather-dashboard.herokuapp.com/",
+  },
 ];
 
 export default projects;
