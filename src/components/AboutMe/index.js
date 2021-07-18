@@ -11,12 +11,12 @@ import { faDatabase, faServer } from "@fortawesome/free-solid-svg-icons";
 
 const AboutMe = () => {
   return (
-    <div className="container-fluid mt-5" id="aboutMe">
+    <div className="container-fluid mt-5 pt-5" id="aboutMe">
       <div>
         <h1 className="text-center mb-3 p-3">about me</h1>
       </div>
       <div className="d-flex align-items-center justify-content-center text-center aboutMeContainer">
-        <p className="text-center mt-5 pt-5 me-5 w-50 aboutMeText">
+        <p className="text-center mt-5 pt-5 w-50 aboutMeText">
           Hi! I'm Leon, a full-stack web developer with a focus on the MERN
           stack, based in Birmingham. I'm currently working as an IT engineer
           and looking for my first opportunity in the software engineering

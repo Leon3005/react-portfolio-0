@@ -3,7 +3,7 @@ import Navbar from "../Navbar";
 const Header = () => {
   return (
     <div>
-      <header className="header">
+      <header className="header" id="home">
         <Navbar />
         <div className="container-fluid">
           <div className="personalDetails ">

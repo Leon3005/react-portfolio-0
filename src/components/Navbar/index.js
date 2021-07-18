@@ -17,7 +17,7 @@ const Navbar = () => {
           <div className="navbar-nav ms-auto">
             <ul className="navbar-nav">
               <li class="nav-item">
-                <a className="nav-link active" aria-current="page" href="#">
+                <a className="nav-link active" aria-current="page" href="#home">
                   home
                 </a>
               </li>
@@ -32,7 +32,7 @@ const Navbar = () => {
                 </a>
               </li>
               <li class="nav-item">
-                <a className="nav-link" href="#">
+                <a className="nav-link" href="#contactMe">
                   contact me
                 </a>
               </li>
