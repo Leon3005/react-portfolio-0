@@ -16,7 +16,7 @@ const AboutMe = () => {
         <h1 className="text-center mb-3 p-3">about me</h1>
       </div>
       <div className="d-flex align-items-center justify-content-center text-center aboutMeContainer">
-        <p className="text-center mt-5 pt-5 w-50 aboutMeText">
+        <span className="text-center mt-5 pt-5 w-50 aboutMeText">
           Hi! I'm Leon, a full-stack web developer with a focus on the MERN
           stack, based in Birmingham. I'm currently working as an IT engineer
           and looking for my first opportunity in the software engineering
@@ -31,21 +31,19 @@ const AboutMe = () => {
             <a
               href="https://developer.mozilla.org/en-US/docs/Web/HTML"
               target="_blank"
-              className=""
             >
               <FontAwesomeIcon icon={faHtml5} size="2x" />
             </a>
             <a
               href="https://developer.mozilla.org/en-US/docs/Web/CSS"
               target="_blank"
-              className=""
             >
               <FontAwesomeIcon icon={faCss3} size="2x" />
             </a>
-            <a href="https://www.javascript.com/" target="_blank" className="">
+            <a href="https://www.javascript.com/" target="_blank">
               <FontAwesomeIcon icon={faJs} size="2x" />
             </a>
-            <a href="https://nodejs.org/en/" target="_blank" className="">
+            <a href="https://nodejs.org/en/" target="_blank">
               <FontAwesomeIcon icon={faNodeJs} size="2x" />
             </a>
             <a
@@ -55,32 +53,24 @@ const AboutMe = () => {
             >
               <FontAwesomeIcon icon={faDatabase} size="2x" />
             </a>
-            <a href="https://expressjs.com/" target="_blank" className="">
+            <a href="https://expressjs.com/" target="_blank">
               <FontAwesomeIcon icon={faServer} size="2x" />
             </a>
           </div>
           <br />
           And here are some you can expect to see me using in the future:
           <div className="d-flex justify-content-evenly mt-4">
-            <a href="https://reactjs.org/" target="_blank" className="me-5">
+            <a href="https://reactjs.org/" target="_blank">
               <FontAwesomeIcon icon={faReact} size="2x" />
             </a>
-            <a
-              href="https://www.mongodb.com/"
-              target="_blank"
-              className="projectLink"
-            >
+            <a href="https://www.mongodb.com/" target="_blank">
               <FontAwesomeIcon icon={faDatabase} size="2x" />
             </a>
-            <a
-              href="https://aws.amazon.com/"
-              target="_blank"
-              className="projectLink"
-            >
+            <a href="https://aws.amazon.com/" target="_blank">
               <FontAwesomeIcon icon={faAws} size="2x" />
             </a>
           </div>
-        </p>
+        </span>
         <img
           className="ms-5"
           src="https://media-exp3.licdn.com/dms/image/C4E03AQFkiTg1QEdJSQ/profile-displayphoto-shrink_200_200/0/1620161864949?e=1631750400&v=beta&t=KTtBcSphj9pSFV_D45hpitljc19uxfFJkwHx-HhWgmo"

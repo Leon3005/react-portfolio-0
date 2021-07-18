@@ -9,18 +9,30 @@ const ContactMe = () => {
         <h1 className="text-center mb-3 p-3">contact me</h1>
       </div>
       <div className="d-flex align-items-center justify-content-center text-center contactMeContainer">
-        <p className="text-center mt-5 pt-5 w-50 contactMeText">
+        <span className="text-center mt-5 pt-5 w-50 contactMeText">
           If you have any queries that could be of interest or would like to
           find out more, please feel free to contact me or check out some of my
           platforms below:
-          <div className="d-flex justify-content-evenly mt-5">
-            <a href="https://github.com/Leon3005" target="_blank">
+          <div className="d-flex justify-content-evenly mt-5 mb-5">
+            <a
+              href="https://github.com/Leon3005"
+              target="_blank"
+              className="me-2"
+            >
               <FontAwesomeIcon icon={faGithub} size="2x" />
             </a>
-            <a href="https://www.linkedin.com/in/leon-wheeler/" target="_blank">
+            <a
+              href="https://www.linkedin.com/in/leon-wheeler/"
+              target="_blank"
+              className="me-2"
+            >
               <FontAwesomeIcon icon={faLinkedin} size="2x" />
             </a>
-            <a href="mailto:leonwheeler08@gmail.com" target="_blank">
+            <a
+              href="mailto:leonwheeler08@gmail.com"
+              target="_blank"
+              className="me-2"
+            >
               <FontAwesomeIcon icon={faEnvelope} size="2x" />
             </a>
             <a
@@ -30,7 +42,7 @@ const ContactMe = () => {
               <FontAwesomeIcon icon={faFileAlt} size="2x" />
             </a>
           </div>
-        </p>
+        </span>
       </div>
     </div>
   );
