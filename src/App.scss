@@ -61,9 +61,17 @@ br {
   }
 }
 
+svg {
+  color: black;
+}
+
+svg:hover {
+  color: #0d6efd;
+}
+
 #projectHeading {
   color: black;
-  margin-top: 5rem;
+  margin-top: 7rem;
   margin-bottom: 2rem;
   h1 {
     font-size: 3rem;
@@ -93,9 +101,9 @@ br {
   text-decoration: none;
 }
 
-#aboutMe {
+#aboutMe,
+#contactMe {
   color: black;
-  height: 100vh;
   h1 {
     font-size: 3rem;
   }
@@ -107,10 +115,14 @@ br {
   img {
     border-radius: 50%;
     transform: scale(1.2);
+    box-shadow: rgba(0, 0, 0, 0.4) 5px 5px, rgba(0, 0, 0, 0.3) 10px 10px,
+      rgba(0, 0, 0, 0.2) 15px 15px, rgba(0, 0, 0, 0.1) 20px 20px,
+      rgba(0, 0, 0, 0.05) 25px 25px;
   }
 }
 
-.aboutMeText {
+.aboutMeText,
+.contactMeText {
   font-size: 1.5rem;
   color: black;
 }
@@ -132,17 +144,18 @@ br {
       font-size: 1.1rem;
       width: 75% !important;
       margin-right: 0 !important;
+      margin-bottom: 4rem;
     }
 
     img {
       margin-left: 0 !important;
+      transform: scale(1);
     }
   }
 }
 
 @media screen and (max-width: 620px) {
   .waves {
-    transform: scale(1, 4.5);
     bottom: 0%;
   }
 
@@ -166,5 +179,12 @@ br {
   .projectImage {
     height: 175px;
     width: 350px;
+  }
+}
+
+@media screen and (max-width: 590px) {
+  .waves {
+    transform: scale(1, 4.3);
+    bottom: 0%;
   }
 }
