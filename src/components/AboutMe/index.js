@@ -6,6 +6,7 @@ import {
   faCss3,
   faNodeJs,
   faAws,
+  faGraph,
 } from "@fortawesome/free-brands-svg-icons";
 import { faDatabase, faServer } from "@fortawesome/free-solid-svg-icons";
 
@@ -58,7 +59,7 @@ const AboutMe = () => {
             </a>
           </div>
           <br />
-          And here are some you can expect to see me using in the future:
+          And here are some you can expect to see in recent & future projects:
           <div className="d-flex justify-content-evenly mt-4">
             <a href="https://reactjs.org/" target="_blank">
               <FontAwesomeIcon icon={faReact} size="2x" />
