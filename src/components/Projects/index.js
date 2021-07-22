@@ -1,10 +1,12 @@
+import { v4 as uuidv4 } from "uuid";
+
 import Project from "./project";
 import projects from "../../assets/projectData";
 
 const Projects = () => {
   const renderProjects = () => {
     return projects.map((project) => {
-      return <Project data={project} />;
+      return <Project data={project} key={uuidv4()} />;
     });
   };
 
