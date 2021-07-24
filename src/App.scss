@@ -59,10 +59,10 @@ br {
 
 svg {
   color: black;
-}
-
-svg:hover {
-  color: #0d6efd;
+  transition: all 0.3s ease;
+  &:hover {
+    color: #0d6efd;
+  }
 }
 
 #projectHeading {
