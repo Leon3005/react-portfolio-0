@@ -12,6 +12,9 @@ br {
 .header {
   height: 100vh;
   background-color: black;
+  .nav-link {
+    font-size: 1.2rem;
+  }
 }
 
 .waves {
@@ -76,25 +79,26 @@ svg {
 
 .projects {
   color: black;
-}
 
-.project {
-  width: 600px;
-}
+  .project {
+    width: 600px;
 
-.projectImage {
-  height: 300px;
-  width: 600px;
-  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
-    rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
-}
+    .projectImage {
+      height: 300px;
+      width: 600px;
+      box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
+        rgba(0, 0, 0, 0.3) 0px 7px 13px -3px,
+        rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    }
 
-.projectDesc {
-  width: 800px;
-}
+    .projectDesc {
+      width: 800px;
+    }
 
-.projectLink {
-  text-decoration: none;
+    .projectLink {
+      text-decoration: none;
+    }
+  }
 }
 
 #aboutMe,
@@ -170,15 +174,14 @@ svg {
 
   .projects {
     flex-direction: inherit;
-  }
+    .project {
+      width: 350px;
 
-  .project {
-    width: 350px;
-  }
-
-  .projectImage {
-    height: 175px;
-    width: 350px;
+      .projectImage {
+        height: 175px;
+        width: 350px;
+      }
+    }
   }
 }
 

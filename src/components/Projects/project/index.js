@@ -5,11 +5,13 @@ import { faServer } from "@fortawesome/free-solid-svg-icons";
 const Project = (props) => {
   return (
     <div className="project mt-5 mx-5">
-      <img
-        src={props.data.image}
-        className="projectImage"
-        alt={props.data.imageAlt}
-      ></img>
+      <a href={props.data.deployedLink} target="_blank">
+        <img
+          src={props.data.image}
+          className="projectImage"
+          alt={props.data.imageAlt}
+        ></img>
+      </a>
       <h5 className="text-center mt-3">{props.data.title}</h5>
       <p className="text-center text-secondary">{props.data.description}</p>
       <p className="text-center text-danger">{props.data.tech}</p>
