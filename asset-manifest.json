@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/react-portfolio-0/static/css/main.d9fb324b.chunk.css",
+    "main.js": "/react-portfolio-0/static/js/main.e25362f4.chunk.js",
+    "main.js.map": "/react-portfolio-0/static/js/main.e25362f4.chunk.js.map",
+    "runtime-main.js": "/react-portfolio-0/static/js/runtime-main.10ddd69a.js",
+    "runtime-main.js.map": "/react-portfolio-0/static/js/runtime-main.10ddd69a.js.map",
+    "static/css/2.4be38407.chunk.css": "/react-portfolio-0/static/css/2.4be38407.chunk.css",
+    "static/js/2.2de346bf.chunk.js": "/react-portfolio-0/static/js/2.2de346bf.chunk.js",
+    "static/js/2.2de346bf.chunk.js.map": "/react-portfolio-0/static/js/2.2de346bf.chunk.js.map",
+    "index.html": "/react-portfolio-0/index.html",
+    "static/css/2.4be38407.chunk.css.map": "/react-portfolio-0/static/css/2.4be38407.chunk.css.map",
+    "static/css/main.d9fb324b.chunk.css.map": "/react-portfolio-0/static/css/main.d9fb324b.chunk.css.map",
+    "static/js/2.2de346bf.chunk.js.LICENSE.txt": "/react-portfolio-0/static/js/2.2de346bf.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/react-portfolio-0/static/media/GTWalsheimPro-Regular.1fd3cd7a.ttf"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.10ddd69a.js",
+    "static/css/2.4be38407.chunk.css",
+    "static/js/2.2de346bf.chunk.js",
+    "static/css/main.d9fb324b.chunk.css",
+    "static/js/main.e25362f4.chunk.js"
+  ]
+}
