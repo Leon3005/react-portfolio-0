@@ -8,7 +8,7 @@ Deployed application link: [Portfolio](https://leonwheeler.netlify.app/)
 
 ## Table of Contents
 
-- [LW Radio](#lw-radio)
+- [React Portfolio](#react-portfolio)
   - [Description](#description)
   - [Table of Contents](#table-of-contents)
   - [Installation](#installation)
