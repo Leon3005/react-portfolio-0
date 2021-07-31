@@ -4,7 +4,7 @@
 
 My most recent portfolio that was built using React, showcasing some of my projects built within the last 6 months using a wide range of technologies.
 
-Deployed application link: [Portfolio](https://leonwheeler.netlify.app/)
+Deployed application link: [Portfolio](https://leon3005.github.io/react-portfolio-0/)
 
 ## Table of Contents
 
